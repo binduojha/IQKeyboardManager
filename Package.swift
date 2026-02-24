@@ -19,6 +19,7 @@ let package = Package(
         .package(url: "https://github.com/binduojha/IQKeyboardToolbarManager.git", branch: "main"),
         .package(url: "https://github.com/hackiftekhar/IQKeyboardReturnManager.git", from: "1.0.6"),
         .package(url: "https://github.com/hackiftekhar/IQTextView.git", from: "1.0.5"),
+        .package(url: "https://github.com/hackiftekhar/IQKeyboardCore.git", from: "1.0.8"),
     ],
     targets: [
         .target(name: "IQKeyboardManagerSwift",
@@ -27,7 +28,8 @@ let package = Package(
                     "IQTextInputViewNotification",
                     "IQKeyboardToolbarManager",
                     "IQKeyboardReturnManager",
-                    "IQTextView"
+                    "IQTextView",
+                    "IQKeyboardCore"
                 ],
                 path: "IQKeyboardManagerSwift",
                 resources: [
